@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "author": "sahil",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-iam": "^3.300.0",
     "aws-sdk": "^2.1343.0"
   }
 }
